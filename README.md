@@ -1,69 +1,143 @@
-# React + TypeScript + Vite
+<!-- README TOP -->
+<div id="readme-top"></div>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# 🚀 React-template – React + Vite + Tailwind + TypeScript
 
-Currently, two official plugins are available:
+A react-template, built using **React**, **Vite**, and styled with **Tailwind CSS**. The codebase includes type-safe development with **TypeScript**.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+<!-- TABLE OF CONTENTS -->
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+# 📗 Table of Contents
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
+- [📸 Screenshots](#screenshots)
+- [💻 Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Setup](#setup)
+- [👥 Authors](#authors)
+- [🤝 Contributing](#contributing)
+- [📝 License](#license)
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
+---
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+<!-- ABOUT PROJECT -->
+
+## 📖 About the Project <a name="about-project"></a>
+
+> This is built using React, powered by Vite for lightning-fast development and build performance. The project is written in TypeScript to ensure type safety and maintainable code, and styled with Tailwind CSS for responsive, utility-first design.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+---
+
+<!-- BUILT WITH -->
+
+## 🛠 Built With <a name="built-with"></a>
+
+- **Languages & Tools**:
+  - React + Vite + TypeScript
+  - Tailwind CSS
+  - Git, GitHub
+
+### Key Features <a name="key-features"></a>
+
+- ✅ Responsive Design (Mobile-first)
+- ✅ Modular Components
+- ✅ Type-safe Codebase
+- ✅ Fast Vite Dev Server
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+---
+
+<!-- LIVE DEMO -->
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+- [🌍 Live Site]()
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+---
+
+<!-- SCREENSHOTS -->
+
+## 📸 Screenshots <a name="screenshots"></a>
+
+### 💻 Desktop
+
+![Desktop Screenshot](./screenshots/home.png)
+
+### 📱 Mobile View
+
+![Mobile Screenshot](./screenshots/mobile.png)
+
+> You can replace the above image links with your actual screenshots
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+---
+
+<!-- GETTING STARTED -->
+
+## 💻 Getting Started <a name="getting-started"></a>
+
+To get a local copy up and running, follow these steps.
+
+### Prerequisites <a name="prerequisites"></a>
+
+- Node.js and npm
+- Git and a code editor
+
+### Setup <a name="setup"></a>
+
+```bash
+git clone https://github.com/yodit93/yodit_portfolio.git
+cd yodit_portfolio
+npm install
+npm run dev
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+Visit `http://localhost:5173` in your browser.
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+---
+
+<!-- AUTHORS -->
+
+## 👥 Authors <a name="authors"></a>
+
+👤 **Yodit Abebe**
+
+- GitHub: [@yodit93](https://github.com/yodit93)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+<!-- CONTRIBUTING -->
+
+## 🤝 Contributing <a name="contributing"></a>
+
+Contributions, issues, and feature requests are welcome!
+
+Check the [issues page](https://github.com/yodit93/react-template/issues).
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+---
+
+
+
+<!-- LICENSE -->
+
+## 📝 License <a name="license"></a>
+
+This project is [MIT](./LICENSE) licensed.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
